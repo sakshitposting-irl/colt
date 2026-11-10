@@ -1,0 +1,4 @@
+IMAGE                                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+ghcr.io/oras-project/oras:v1.2.3        bf349b578f22       22.9MB             0B        
+public.ecr.aws/aws-cli/aws-cli:2.24.0   7f896da85145        419MB             0B        
+registry:2                              26b2eb03618e       25.4MB             0B        

@@ -1,0 +1,3 @@
+NAME      READY   STATUS    RESTARTS   AGE     IP           NODE                   NOMINATED NODE   READINESS GATES
+busybox   1/1     Running   0          4m43s   10.244.0.6   hfirst-control-plane   <none>           <none>
+nginx     1/1     Running   0          4m44s   10.244.0.5   hfirst-control-plane   <none>           <none>

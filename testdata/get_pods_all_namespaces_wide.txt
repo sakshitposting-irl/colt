@@ -1,0 +1,12 @@
+NAMESPACE            NAME                                           READY   STATUS    RESTARTS   AGE     IP           NODE                   NOMINATED NODE   READINESS GATES
+default              busybox                                        1/1     Running   0          4m44s   10.244.0.6   hfirst-control-plane   <none>           <none>
+default              nginx                                          1/1     Running   0          4m45s   10.244.0.5   hfirst-control-plane   <none>           <none>
+kube-system          coredns-6f6b679f8f-8w9pn                       1/1     Running   0          5m1s    10.244.0.3   hfirst-control-plane   <none>           <none>
+kube-system          coredns-6f6b679f8f-twp58                       1/1     Running   0          5m1s    10.244.0.2   hfirst-control-plane   <none>           <none>
+kube-system          etcd-hfirst-control-plane                      1/1     Running   0          5m8s    172.18.0.3   hfirst-control-plane   <none>           <none>
+kube-system          kindnet-flrkw                                  1/1     Running   0          5m2s    172.18.0.3   hfirst-control-plane   <none>           <none>
+kube-system          kube-apiserver-hfirst-control-plane            1/1     Running   0          5m10s   172.18.0.3   hfirst-control-plane   <none>           <none>
+kube-system          kube-controller-manager-hfirst-control-plane   1/1     Running   0          5m8s    172.18.0.3   hfirst-control-plane   <none>           <none>
+kube-system          kube-proxy-dlf2z                               1/1     Running   0          5m2s    172.18.0.3   hfirst-control-plane   <none>           <none>
+kube-system          kube-scheduler-hfirst-control-plane            1/1     Running   0          5m8s    172.18.0.3   hfirst-control-plane   <none>           <none>
+local-path-storage   local-path-provisioner-57c5987fd4-h2m7r        1/1     Running   0          5m1s    10.244.0.4   hfirst-control-plane   <none>           <none>

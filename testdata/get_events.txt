@@ -1,0 +1,19 @@
+LAST SEEN   TYPE     REASON                    OBJECT                      MESSAGE
+5m3s        Normal   Starting                  node/hfirst-control-plane   
+5m12s       Normal   Starting                  node/hfirst-control-plane   Starting kubelet.
+5m11s       Normal   NodeHasSufficientMemory   node/hfirst-control-plane   Node hfirst-control-plane status is now: NodeHasSufficientMemory
+5m11s       Normal   NodeHasSufficientPID      node/hfirst-control-plane   Node hfirst-control-plane status is now: NodeHasSufficientPID
+5m11s       Normal   NodeHasNoDiskPressure     node/hfirst-control-plane   Node hfirst-control-plane status is now: NodeHasNoDiskPressure
+5m11s       Normal   NodeAllocatableEnforced   node/hfirst-control-plane   Updated Node Allocatable limit across pods
+5m6s        Normal   RegisteredNode            node/hfirst-control-plane   Node hfirst-control-plane event: Registered Node hfirst-control-plane in Controller
+4m51s       Normal   NodeReady                 node/hfirst-control-plane   Node hfirst-control-plane status is now: NodeReady
+4m48s       Normal   Scheduled                 pod/nginx                   Successfully assigned default/nginx to hfirst-control-plane
+4m47s       Normal   Pulling                   pod/busybox                 Pulling image "busybox:stable"
+4m47s       Normal   Scheduled                 pod/busybox                 Successfully assigned default/busybox to hfirst-control-plane
+4m47s       Normal   Pulling                   pod/nginx                   Pulling image "nginx:alpine"
+4m11s       Normal   Pulled                    pod/nginx                   Successfully pulled image "nginx:alpine" in 36.447s (36.447s including waiting). Image size: 26354394 bytes.
+4m11s       Normal   Created                   pod/nginx                   Created container nginx
+4m10s       Normal   Started                   pod/nginx                   Started container nginx
+4m          Normal   Started                   pod/busybox                 Started container busybox
+4m          Normal   Created                   pod/busybox                 Created container busybox
+4m          Normal   Pulled                    pod/busybox                 Successfully pulled image "busybox:stable" in 10.571s (46.931s including waiting). Image size: 2217006 bytes.

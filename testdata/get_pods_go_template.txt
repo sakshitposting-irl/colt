@@ -1,0 +1,2 @@
+busybox Running
+nginx Running

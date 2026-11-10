@@ -1,0 +1,12 @@
+NAMESPACE            NAME                                           READY   STATUS    RESTARTS   AGE
+default              busybox                                        1/1     Running   0          4m44s
+default              nginx                                          1/1     Running   0          4m45s
+kube-system          coredns-6f6b679f8f-8w9pn                       1/1     Running   0          5m1s
+kube-system          coredns-6f6b679f8f-twp58                       1/1     Running   0          5m1s
+kube-system          etcd-hfirst-control-plane                      1/1     Running   0          5m8s
+kube-system          kindnet-flrkw                                  1/1     Running   0          5m2s
+kube-system          kube-apiserver-hfirst-control-plane            1/1     Running   0          5m10s
+kube-system          kube-controller-manager-hfirst-control-plane   1/1     Running   0          5m8s
+kube-system          kube-proxy-dlf2z                               1/1     Running   0          5m2s
+kube-system          kube-scheduler-hfirst-control-plane            1/1     Running   0          5m8s
+local-path-storage   local-path-provisioner-57c5987fd4-h2m7r        1/1     Running   0          5m1s

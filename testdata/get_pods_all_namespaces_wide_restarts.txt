@@ -1,0 +1,24 @@
+NAMESPACE            NAME                                            READY   STATUS      RESTARTS        AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+cert-manager         cert-manager-6cb788c8fd-9jbw7                   1/1     Running     44 (26m ago)    8d      10.244.0.4    cyclops-control-plane   <none>           <none>
+cert-manager         cert-manager-cainjector-74d4b75685-5rqtk        1/1     Running     4 (3d8h ago)    8d      10.244.0.6    cyclops-control-plane   <none>           <none>
+cert-manager         cert-manager-webhook-6fb57ddc6-99rnf            1/1     Running     2 (3d8h ago)    8d      10.244.0.5    cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-controller-manager-8464c47fdd-v6hvx     1/1     Running     2 (3d8h ago)    3d17h   10.244.0.8    cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-gmail-test-29887680-tpfv5               0/1     Completed   0               7d5h    <none>        cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-ing-healthy-29883360-l94dq              0/1     Completed   0               10d     <none>        cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-ing-healthy-29886240-8hmnj              0/1     Completed   0               8d      <none>        cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-ing-healthy-29887680-dfvlg              0/1     Completed   0               7d5h    <none>        cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-ing-shared-29883360-fq98j               0/1     Completed   0               10d     <none>        cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-ing-shared-29886240-57jwx               0/1     Completed   0               8d      <none>        cyclops-control-plane   <none>           <none>
+cyclops-system       cyclops-ing-shared-29887680-tm6js               0/1     Completed   0               7d5h    <none>        cyclops-control-plane   <none>           <none>
+cyclops-system       h-denied-fxqhd                                  0/1     Error       0               14d     <none>        cyclops-control-plane   <none>           <none>
+kube-system          coredns-6f6b679f8f-64cgq                        1/1     Running     12 (3d8h ago)   14d     10.244.0.10   cyclops-control-plane   <none>           <none>
+kube-system          coredns-6f6b679f8f-tqq45                        1/1     Running     12 (3d8h ago)   14d     10.244.0.9    cyclops-control-plane   <none>           <none>
+kube-system          etcd-cyclops-control-plane                      1/1     Running     0               3d8h    172.18.0.3    cyclops-control-plane   <none>           <none>
+kube-system          kindnet-8dx82                                   1/1     Running     12 (3d8h ago)   14d     172.18.0.3    cyclops-control-plane   <none>           <none>
+kube-system          kube-apiserver-cyclops-control-plane            1/1     Running     0               3d8h    172.18.0.3    cyclops-control-plane   <none>           <none>
+kube-system          kube-controller-manager-cyclops-control-plane   1/1     Running     14 (3d8h ago)   14d     172.18.0.3    cyclops-control-plane   <none>           <none>
+kube-system          kube-proxy-jqjb5                                1/1     Running     12 (3d8h ago)   14d     172.18.0.3    cyclops-control-plane   <none>           <none>
+kube-system          kube-scheduler-cyclops-control-plane            1/1     Running     14 (3d8h ago)   14d     172.18.0.3    cyclops-control-plane   <none>           <none>
+local-path-storage   local-path-provisioner-57c5987fd4-lfp99         1/1     Running     24 (3d8h ago)   14d     10.244.0.2    cyclops-control-plane   <none>           <none>
+mail                 mailpit-6d87cb4464-7gztn                        1/1     Running     2 (3d8h ago)    8d      10.244.0.7    cyclops-control-plane   <none>           <none>
+mailhog              mailhog-79b6cd67cd-htgf9                        1/1     Running     12 (3d8h ago)   14d     10.244.0.3    cyclops-control-plane   <none>           <none>

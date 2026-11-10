@@ -1,0 +1,4 @@
+USER         PID    PPID %CPU %MEM    VSZ   RSS TT       STAT  STARTED     TIME COMMAND
+saksham   382356  382349  0.0  0.0  17848  7848 ?        S    18:42:59 00:00:00 head
+saksham   382355  382349  0.0  0.0  13272  5644 ?        R    18:42:59 00:00:00 ps
+saksham   382349  374626 50.0  0.0  11268  4948 ?        Ss   18:42:59 00:00:00 zsh

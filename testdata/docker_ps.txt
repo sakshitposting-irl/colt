@@ -1,0 +1,3 @@
+CONTAINER ID   IMAGE                  COMMAND                  CREATED       STATUS      PORTS                       NAMES
+eade243b6187   kindest/node:v1.31.0   "/usr/local/bin/entr…"   9 days ago    Up 3 days   127.0.0.1:32955->6443/tcp   hfirst-control-plane
+464cdd035ac4   kindest/node:v1.31.0   "/usr/local/bin/entr…"   2 weeks ago   Up 3 days   127.0.0.1:34547->6443/tcp   cyclops-control-plane
